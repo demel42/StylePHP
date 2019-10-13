@@ -1,5 +1,9 @@
 <?php
 
+$finder = PhpCsFixer\Finder::create()
+    ->exclude('docs');
+    ;
+
 return PhpCsFixer\Config::create()
     ->setRules([
         'align_multiline_comment' => [
@@ -176,4 +180,6 @@ return PhpCsFixer\Config::create()
     ->setIndent("    ")
     ->setLineEnding("\n")
     ->setRiskyAllowed(true)
-	->setUsingCache(false);
+    ->setUsingCache(false)
+    ->setFinder($finder);
+    ;
