@@ -1,7 +1,7 @@
 <?php
 
 $finder = PhpCsFixer\Finder::create()
-    ->exclude('docs');
+    // ->exclude('docs');
     ;
 
 return PhpCsFixer\Config::create()
