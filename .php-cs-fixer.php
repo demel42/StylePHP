@@ -61,7 +61,7 @@ return $config->setRules([
     'no_blank_lines_after_phpdoc'             => true,
     'no_blank_lines_before_namespace'         => false,
     'no_break_comment'                        => [
-        'comment_text' => 'FIXME: No break. Please add proper comment if intentional'
+        'comment_text' => 'no break'
     ],
     'no_closing_tag'                              => true,
     'no_empty_comment'                            => true,
